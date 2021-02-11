@@ -1,14 +1,12 @@
 package com.example.calculator;
-
 import android.os.Build;
 import android.os.Bundle;
+import org.mariuszgromada.math.mxparser.*;
 import android.text.SpannableStringBuilder;
 import android.view.View;
 import android.widget.EditText;
-
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
-
 import java.util.Objects;
 
 public class MainActivity2 extends AppCompatActivity {
@@ -99,7 +97,25 @@ public class MainActivity2 extends AppCompatActivity {
     }
 
     public void bracketBTN(View view) {
-        updateText("0");
+        int c = display.getSelectionStart();
+        int o = 0;
+        int close = 0;
+        int t = display.getText().length();
+
+        for (int i = 0; i < c; i++) {
+            if (display.getText().toString().startsWith("(", i)) {
+                o += 1;
+            }
+            if (display.getText().toString().startsWith(")", i)) {
+                close += 1;
+            }
+        }
+        if (o == close || display.getText().toString().startsWith("(", t - 1)) {
+            updateText("(");
+        } else if (close < o && !display.getText().toString().startsWith("(", t - 1)) {
+            updateText(")");
+        }
+        display.setSelection(close + 1);
     }
 
     public void dividedBTN(View view) {
@@ -111,7 +127,7 @@ public class MainActivity2 extends AppCompatActivity {
     }
 
     public void intoBTN(View view) {
-        updateText("X");
+        updateText("x");
     }
 
     public void subtractionBAN(View view) {
@@ -123,7 +139,15 @@ public class MainActivity2 extends AppCompatActivity {
     }
 
     public void equalBTN(View view) {
-        updateText("=");
+        String u = display.getText().toString();
+
+        u = u.replaceAll("÷","/");
+        u = u.replaceAll("x","*");
+
+        Expression ex = new Expression(u);
+        String res = String.valueOf(ex.calculate());
+        display.setText(res);
+        display.setSelection(res.length());
     }
 
     public void dotBTN(View view) {
@@ -131,7 +155,7 @@ public class MainActivity2 extends AppCompatActivity {
     }
 
     public void plusmineBTN(View view) {
-        updateText("0");
+        updateText("-");
     }
 
     public void backS(View view) {
