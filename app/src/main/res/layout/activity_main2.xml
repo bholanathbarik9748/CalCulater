@@ -32,10 +32,9 @@
                 android:layout_margin="5dp"
                 android:background="@drawable/button_style"
                 android:foregroundGravity="center_vertical|center|center_horizontal"
-                android:onClick="clearBTM"
-                android:text="@string/clear"
+                android:text="C"
                 android:textColor="#912626"
-                android:textSize="24sp"
+                android:textSize="30sp"
                 app:backgroundTint="#95847C" />
 
             <Button
@@ -47,9 +46,9 @@
                 android:background="@drawable/button_style"
                 android:foregroundGravity="center_vertical|center|center_horizontal"
                 android:onClick="bracketBTN"
-                android:text="@string/braket"
+                android:text="( )"
                 android:textColor="#1C1111"
-                android:textSize="24sp"
+                android:textSize="30sp"
                 app:backgroundTint="#95847C" />
 
             <Button
@@ -60,10 +59,9 @@
                 android:layout_margin="7dp"
                 android:background="@drawable/button_style"
                 android:foregroundGravity="center_vertical|center|center_horizontal"
-                android:onClick="perBTN"
-                android:text="@string/per"
+                android:text="%"
                 android:textColor="#1C1111"
-                android:textSize="24sp"
+                android:textSize="30sp"
                 app:backgroundTint="#95847C" />
 
             <Button
@@ -74,10 +72,9 @@
                 android:layout_margin="7dp"
                 android:background="@drawable/button_style"
                 android:foregroundGravity="center_vertical|center|center_horizontal"
-                android:onClick="dividedBTN"
-                android:text="@string/divide"
+                android:text="÷"
                 android:textColor="#1C1111"
-                android:textSize="24sp"
+                android:textSize="30sp"
                 app:backgroundTint="#95847C" />
         </TableRow>
 
@@ -94,9 +91,8 @@
                 android:layout_margin="7dp"
                 android:background="@drawable/button_style"
                 android:foregroundGravity="center_vertical|center|center_horizontal"
-                android:onClick="sevenBTM"
-                android:text="@string/seven"
-                android:textSize="24sp"
+                android:text="7"
+                android:textSize="30sp"
                 app:backgroundTint="#95847C" />
 
             <Button
@@ -107,9 +103,8 @@
                 android:layout_margin="7dp"
                 android:background="@drawable/button_style"
                 android:foregroundGravity="center_vertical|center|center_horizontal"
-                android:onClick="eightBTM"
-                android:text="@string/eight"
-                android:textSize="24sp"
+                android:text="8"
+                android:textSize="30sp"
                 app:backgroundTint="#95847C" />
 
             <Button
@@ -120,9 +115,8 @@
                 android:layout_margin="7dp"
                 android:background="@drawable/button_style"
                 android:foregroundGravity="center_vertical|center|center_horizontal"
-                android:onClick="nineBTM"
-                android:text="@string/nine"
-                android:textSize="24sp"
+                android:text="9"
+                android:textSize="30sp"
                 app:backgroundTint="#95847C" />
 
             <Button
@@ -133,10 +127,9 @@
                 android:layout_margin="7dp"
                 android:background="@drawable/button_style"
                 android:foregroundGravity="center_vertical|center|center_horizontal"
-                android:onClick="intoBTN"
-                android:text="@string/into"
+                android:text="X"
                 android:textColor="#1C1111"
-                android:textSize="24sp"
+                android:textSize="30sp"
                 app:backgroundTint="#95847C" />
         </TableRow>
 
@@ -153,9 +146,8 @@
                 android:layout_margin="7dp"
                 android:background="@drawable/button_style"
                 android:foregroundGravity="center_vertical|center|center_horizontal"
-                android:onClick="fourBTM"
-                android:text="@string/four"
-                android:textSize="24sp"
+                android:text="4"
+                android:textSize="30sp"
                 app:backgroundTint="#95847C" />
 
             <Button
@@ -166,9 +158,8 @@
                 android:layout_margin="7dp"
                 android:background="@drawable/button_style"
                 android:foregroundGravity="center_vertical|center|center_horizontal"
-                android:onClick="fiveBTM"
-                android:text="@string/five"
-                android:textSize="24sp"
+                android:text="5"
+                android:textSize="30sp"
                 app:backgroundTint="#95847C" />
 
             <Button
@@ -179,9 +170,8 @@
                 android:layout_margin="7dp"
                 android:background="@drawable/button_style"
                 android:foregroundGravity="center_vertical|center|center_horizontal"
-                android:onClick="sixBTM"
-                android:text="@string/six"
-                android:textSize="24sp"
+                android:text="6"
+                android:textSize="30sp"
                 app:backgroundTint="#95847C" />
 
             <Button
@@ -192,10 +182,9 @@
                 android:layout_margin="7dp"
                 android:background="@drawable/button_style"
                 android:foregroundGravity="center_vertical|center|center_horizontal"
-                android:onClick="subtractionBAN"
-                android:text="@string/subtract"
+                android:text="-"
                 android:textColor="#1C1111"
-                android:textSize="24sp"
+                android:textSize="30sp"
                 app:backgroundTint="#95847C" />
         </TableRow>
 
@@ -212,9 +201,8 @@
                 android:layout_margin="7dp"
                 android:background="@drawable/button_style"
                 android:foregroundGravity="center_vertical|center|center_horizontal"
-                android:onClick="oneBTM"
-                android:text="@string/one"
-                android:textSize="24sp"
+                android:text="1"
+                android:textSize="30sp"
                 app:backgroundTint="#95847C" />
 
             <Button
@@ -225,9 +213,8 @@
                 android:layout_margin="7dp"
                 android:background="@drawable/button_style"
                 android:foregroundGravity="center_vertical|center|center_horizontal"
-                android:onClick="twoBTM"
-                android:text="@string/two"
-                android:textSize="24sp"
+                android:text="2"
+                android:textSize="30sp"
                 app:backgroundTint="#95847C" />
 
             <Button
@@ -238,9 +225,8 @@
                 android:layout_margin="7dp"
                 android:background="@drawable/button_style"
                 android:foregroundGravity="center_vertical|center|center_horizontal"
-                android:onClick="threeBTM"
-                android:text="@string/Three"
-                android:textSize="24sp"
+                android:text="3"
+                android:textSize="30sp"
                 app:backgroundTint="#95847C" />
 
             <Button
@@ -251,10 +237,9 @@
                 android:layout_margin="7dp"
                 android:background="@drawable/button_style"
                 android:foregroundGravity="center_vertical|center|center_horizontal"
-                android:onClick="plusBTN"
-                android:text="@string/plus"
+                android:text="+"
                 android:textColor="#1C1111"
-                android:textSize="24sp"
+                android:textSize="30sp"
                 app:backgroundTint="#95847C" />
 
         </TableRow>
@@ -272,9 +257,8 @@
                 android:layout_margin="7dp"
                 android:background="@drawable/button_style"
                 android:foregroundGravity="center_vertical|center|center_horizontal"
-                android:onClick="plusmineBTN"
-                android:text="@string/plusminus"
-                android:textSize="24sp"
+                android:text="+/-"
+                android:textSize="30sp"
                 app:backgroundTint="#95847C" />
 
             <Button
@@ -285,9 +269,8 @@
                 android:layout_margin="7dp"
                 android:background="@drawable/button_style"
                 android:foregroundGravity="center_vertical|center|center_horizontal"
-                android:onClick="zeroBTM"
-                android:text="@string/Zero"
-                android:textSize="24sp"
+                android:text="0"
+                android:textSize="30sp"
                 app:backgroundTint="#95847C" />
 
             <Button
@@ -298,9 +281,8 @@
                 android:layout_margin="7dp"
                 android:background="@drawable/button_style"
                 android:foregroundGravity="center_vertical|center|center_horizontal"
-                android:onClick="dotBTN"
-                android:text="@string/dot"
-                android:textSize="24sp"
+                android:text="."
+                android:textSize="30sp"
                 app:backgroundTint="#95847C" />
 
             <Button
@@ -311,9 +293,8 @@
                 android:layout_margin="7dp"
                 android:background="@drawable/button_style"
                 android:foregroundGravity="center_vertical|center|center_horizontal"
-                android:onClick="equalBTN"
-                android:text="@string/equal"
-                android:textSize="24sp"
+                android:text="="
+                android:textSize="30sp"
                 app:backgroundTint="#1C1111" />
         </TableRow>
     </TableLayout>
@@ -337,19 +318,18 @@
     <ImageButton
         android:id="@+id/BackBTN"
         style="@style/Widget.AppCompat.Button.Borderless"
-        android:layout_width="106dp"
-        android:layout_height="62dp"
+        android:layout_width="65dp"
+        android:layout_height="41dp"
         android:background="@drawable/button_style"
         android:contentDescription="@string/todo"
+        android:onClick="backS"
         android:src="@drawable/backspace"
-        android:text="@string/BackSpace"
         android:visibility="visible"
         app:backgroundTint="#5F4F48"
-        android:onClick="backS"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.986"
+        app:layout_constraintHorizontal_bias="0.953"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.49" />
+        app:layout_constraintVertical_bias="0.436" />
 </androidx.constraintlayout.widget.ConstraintLayout>
